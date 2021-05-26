@@ -2,6 +2,12 @@
 
 This is my personal log.
 
+To start on local server, run:
+
+```bash
+bundle exec jekyll s
+```
+
 ---
 
 The content below belongs to the original theme.
