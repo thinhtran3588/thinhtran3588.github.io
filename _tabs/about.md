@@ -12,4 +12,9 @@ I've been working in the IT industry since 2011 through several small and medium
 
 I love to solve life's problems by programming, reading books, and learning technologies. When having free time, my kids, Netflix and PS4 are my close friends.
 
-> This blog is where I take notes, write my ideas, my life experiences, and share them with other people. Read my blogs or check my code at [`https://github.com/thinhtran3588`](https://github.com/thinhtran3588).
+This blog is where I take notes, write my ideas, my life experiences, and share them with other people.
+
+> Check my code at [`https://github.com/thinhtran3588`](https://github.com/thinhtran3588).
+
+**Me and my daughter in Seoul - Korea, 2019.**
+![Image](/assets/img/me-and-my-daughter.jpeg)
