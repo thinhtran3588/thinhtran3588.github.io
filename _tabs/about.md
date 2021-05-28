@@ -1,7 +1,6 @@
 ---
 title: About
 subtitle: "Who I am and why I write this blog."
-image: assets/img/avatar.png
 icon: fas fa-info
 order: 4
 ---
@@ -16,5 +15,5 @@ This blog is where I take notes, write my ideas, my life experiences, and share 
 
 > Check my code at [`https://github.com/thinhtran3588`](https://github.com/thinhtran3588).
 
-**Me and my daughter in Seoul - Korea, 2019.**
 ![Image](/assets/img/me-and-my-daughter.jpeg)
+_Me and my daughter in Seoul - Korea, 2019_
