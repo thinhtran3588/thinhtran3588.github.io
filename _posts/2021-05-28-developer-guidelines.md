@@ -68,6 +68,10 @@ Use [this deployment template](/assets/posts/2021-05-28-developer-guidelines/k8s
 
 ## Web
 
+### 1. Customize the favicon
+
+Follow [this link](https://chirpy.cotes.info/posts/customize-the-favicon/).
+
 ## Mobile
 
 ## AWS
