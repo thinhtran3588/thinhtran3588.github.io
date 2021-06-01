@@ -42,7 +42,6 @@ For example
 
 ```bash
 pg-migrate up --migration-folder ./db-migration --host localhost --database sample --port 5432 --user postgres --password postgres
-
 ```
 
 After the command executes, a table named `migration` is created in your current database with all executed scripts.
