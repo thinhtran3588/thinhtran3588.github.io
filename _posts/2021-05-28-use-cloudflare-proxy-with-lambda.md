@@ -6,7 +6,7 @@ categories: [Tutorials]
 tags: [cloudflare, aws]
 ---
 
-1. Get Origin Certificate from Cloudflare.
+1. Get the Origin Certificate from Cloudflare.
 
    - Go to your domain management page on Cloudflare.
 
@@ -18,9 +18,9 @@ tags: [cloudflare, aws]
 
    - Import the above certificate into AWS Certificate Manager with the certificate and the private key. For certificate chain, get Cloudflare Origin CA — RSA Root from [this link](https://support.cloudflare.com/hc/en-us/articles/115000479507-What-are-the-root-certificate-authorities-CAs-used-with-CloudFlare-Origin-CA-).
 
-   - Setup a Lambda function and a API Gateway endpoint which points to it at a specific stage (dev/prod).
+   - Setup a Lambda function and an API Gateway endpoint pointing to it at a specific stage (dev/prod).
 
-   - In API Gateway Console, go to `Custom domain names`, create a new domain name. For example `api.your-domain.com`, use the above certificate. Then map it to the api with a specific stage. Check its `API Gateway domain name` at the tab `Configurations`.
+   - In API Gateway Console, go to `Custom domain names`, create a new domain name. For example, `api.your-domain.com`, use the above certificate. Then map it to the API with a specific stage. Check its `API Gateway domain name` at the tab `Configurations`.
 
 3. Configure Cloudflare
 
@@ -28,4 +28,4 @@ tags: [cloudflare, aws]
 
    - Go to `SSL/TLS`, change `SSL/TLS encryption mode` to `Full`.
 
-**Note**: It may take a while before you can access the lambda function with the custom domain.
+**Note**: It may take a while before you are able to access the lambda function with the custom domain.

@@ -6,17 +6,19 @@ categories: [Tutorials]
 tags: [postgres, nodejs]
 ---
 
-I've wrote a npm package to make the migration easier. Basically, we use SQL script files to manage our database's schema & data, then use that package to execute those scripts in the database. I prefer using SQL files instead of using other ORM tools & libraries because I think it's much easier to manage Postgres with SQL commands than let ORM tools do some tricks.
+I've been working with SQL Server for years before moving to MongoDB. I loved Mongo so much for its simplicity but still wanted SQL so badly. People liked Postgres so much and even uses them in cloud services such as AWS Athena and Google Big Query. Then I decided to change to Postgres. I fell in love with it at the first sight and want to work with it in the long term.
 
-## How to use
+One thing we all need when working with databases are schema management. ORM (Object-Relational Mapping) tools do it so well with up/down features. We write code in some specific languages (C#, Javascript) and those tools to execute those scripts to update database. I just want a simple tool having the similar feature but for SQL scripts so I've written one by myself as an npm package: `@tqt/pg-migrate`.
 
-### Options 1: run a global command
+pg-migrate is a tool which manages databases' schema & data with SQL scripts.
+
+### 1. Use pg-migrate as a global command
 
 ```bash
 npm install -g @tqt/pg-migrate
 ```
 
-You need to have a migration folder structured as below. You can name it whatever you want but its 2 sub-folders `up` and `down` are required. Put your main scripts in the `up` folder and name them in alphabetical order (the order you want it to run). In order to reverse those scripts in case you want to downgrade, put their counterparts in the `down` folder with the same name.
+You need to have a migration folder structured as below. You can name it whatever you want however its 2 sub-folders `up` and `down` are required. Put your main scripts in the `up` folder and name them in the alphabetical order (the order you want it to run). In case you want to downgrade, you need to place their counterparts in the `down` folder with the same name.
 
 ```bash
 - migration-folder
@@ -43,13 +45,13 @@ pg-migrate up --migration-folder ./db-migration --host localhost --database samp
 
 ```
 
-After it run, a table named `migration` is created in your current database with all scripts which are executed.
+After the command executes, a table named `migration` is created in your current database with all executed scripts.
 
-| id  | version            |     createdat |
-| :-- | :----------------- | ------------: |
-| 0   | "001-add-sample-1" | 1622278220790 |
-| 1   | "002-add-sample-2" | 1622279735989 |
-| 2   | "003-add-sample-3" | 1622279766950 |
+| id  | version          |     createdAt |
+| :-- | :--------------- | ------------: |
+| 0   | 001-add-sample-1 | 1622278220790 |
+| 1   | 002-add-sample-2 | 1622279735989 |
+| 2   | 003-add-sample-3 | 1622279766950 |
 
 In case you want to migrate to a specific version but not the latest one, run
 
@@ -76,7 +78,7 @@ Instead of using parameters, you can use environment variables. You also may use
 | --ssl              | POSTGRES_SSL                     | true                                                             |
 | --connectionString | POSTGRES_CONNECTION_STRING       | postgresql://dbuser:secretpassword@database.server.com:3211/mydb |
 
-### Options 2: run as a local command
+### 2. Use pg-migrate as a local command
 
 Install the package as a dep dependency in your project
 
@@ -96,7 +98,7 @@ Then run
 npx pg-migrate up --migration-folder your-migration-folder --host host-name --database database-name --port port --user user-name --password password
 ```
 
-### Options 3: run in your code
+### 3: Run it in your code
 
 Install the package as a dep dependency in your project
 

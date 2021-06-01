@@ -8,6 +8,12 @@ To start on local server, run:
 bundle exec jekyll s
 ```
 
+To view drafts, run:
+
+```bash
+bundle exec jekyll s --drafts
+```
+
 ---
 
 The content below belongs to the original theme.

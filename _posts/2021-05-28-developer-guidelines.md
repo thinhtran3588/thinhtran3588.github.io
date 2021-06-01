@@ -7,7 +7,7 @@ tags: []
 pin: true
 ---
 
-Guidelines to develop applications. That's my experiences which focuses on Typescript, Nodejs, React, React Native, Postgres & AWS.
+The guidelines to develop applications focusing on Typescript, Nodejs, React, React Native, Postgres & AWS.
 
 ## Backend
 
@@ -54,7 +54,7 @@ exports.graphqlHandler = server.createHandler({
 });
 ```
 
-Use [this Serverless template](/assets/posts/2021-05-28-developer-guidelines/serverless.yml) to deploy Lambda function.
+Use [this Serverless template](/assets/posts/2021-05-28-developer-guidelines/serverless.yml) to deploy a Lambda function.
 
 Follow instructions from [this link](https://www.apollographql.com/docs/apollo-server/deployment/lambda/).
 
@@ -172,7 +172,7 @@ Follow [this link](https://medium.com/netscape/a-guide-to-create-a-nodejs-comman
 
 ### 2. Eslint
 
-Use Eslint as the linter for Typescript. Use the below base files which having rules based on AirBnB's rules, Prettier & some custom rules.
+Use Eslint as the linter for Typescript. Use the below base files which have rules based on AirBnB's rules, Prettier & some custom rules.
 
 - Backend
 
