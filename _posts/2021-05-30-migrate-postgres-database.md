@@ -6,9 +6,9 @@ categories: [Tutorials]
 tags: [postgres, nodejs]
 ---
 
-I've been working with SQL Server for years before moving to MongoDB. I loved Mongo for its simplicity but still wanted SQL so badly. People like SQL so much and even uses them in cloud services such as AWS Athena and Google Big Query. Then I decided to change to Postgres. I fell in love with it at the first sight and want to work with it in the long term.
+I've been working with SQL Server for years before moving to MongoDB. I loved Mongo for its simplicity but still wanted SQL so badly. People like SQL so much and even uses them in cloud services such as AWS Athena and Google Big Query. Then I decided to change to Postgres. I fell in love with it at first sight and want to work with it in the long term.
 
-One thing we all need when working with databases are schema management. ORM (Object-Relational Mapping) tools do it so well with up/down features. We write code in some specific languages (C#, Javascript) and those tools to execute those scripts to update database. I just want a simple tool having the similar feature but for SQL scripts so I've written one by myself as an npm package: `@tqt/pg-migrate`.
+One thing we all need when working with databases is managing schema. ORM (Object-Relational Mapping) tools do it so well with up/down features. We write code in some specific languages (C#, Javascript) and those tools to execute those scripts to update the database. I just want a simple tool having the similar feature but for SQL scripts so I've written one by myself as an npm package: `@tqt/pg-migrate`.
 
 pg-migrate is a tool which manages databases' schema & data with SQL scripts.
 
@@ -70,7 +70,7 @@ Instead of using parameters, you can use environment variables. You also may use
 | :----------------- | :------------------------------- | :--------------------------------------------------------------- |
 | --migration-folder | POSTGRES_MIGRATION_FOLDER        | ./db-migration                                                   |
 | --host             | POSTGRES_HOST                    | localhost                                                        |
-| --port             | "003-add-sample-3"               | 5432                                                             |
+| --port             | POSTGRES_PORT                    | 5432                                                             |
 | --database         | POSTGRES_DATABASE                | postgres                                                         |
 | --user             | POSTGRES_USER                    | user                                                             |
 | --password         | POSTGRES_PASSWORD                | password                                                         |
