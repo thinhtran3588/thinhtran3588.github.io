@@ -1,5 +1,6 @@
 ---
 title: Migrate Postgres database
+description: tqt/pg-migrate - migrate Postgres database with SQL scripts
 author: Thinh Tran
 date: 2021-05-30 06:26:00 +0700
 categories: [Tutorials]

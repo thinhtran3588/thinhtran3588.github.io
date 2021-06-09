@@ -1,5 +1,6 @@
 ---
 title: The start of something new
+description: Why I start this blog
 author: Thinh Tran
 date: 2021-05-26 12:10:00 +0700
 categories: [Blogs]

@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: "Who I am and why I write this blog."
+description: Who I am and why I write this blog.
 icon: fas fa-info
 order: 4
 image: assets/img/me-and-my-daughter.jpeg

@@ -1,5 +1,6 @@
 ---
 title: Developer guidelines (Last updated at 2021-05-28)
+description: Guidelines for develop applications with Typescript, Nodejs, React, React Native & Postgres
 author: Thinh Tran
 date: 2021-05-28 08:14:00 +0700
 categories: [Tutorials]

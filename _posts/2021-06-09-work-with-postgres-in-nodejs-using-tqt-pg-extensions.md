@@ -1,5 +1,6 @@
 ---
 title: Work with Postgres in Nodejs using @tqt/pg-extensions
+description: tqt/pg-extensions - pg with named parameters in queries & simple CRUD operations
 author: Thinh Tran
 date: 2021-06-09 12:20:00 +0700
 categories: [Tutorials]
