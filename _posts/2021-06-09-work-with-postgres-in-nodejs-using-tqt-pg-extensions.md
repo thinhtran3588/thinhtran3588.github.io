@@ -236,7 +236,7 @@ type create = (
 
 ### Update (Promise)
 
-Create a new record in a specific table.
+Update an existing record in a specific table.
 
 ```typescript
 await pool.update("app_user")(4, {
@@ -531,7 +531,7 @@ type create = (
 
 ### Update (Observable)
 
-Create a new record in a specific table.
+Update an existing record in a specific table.
 
 ```typescript
 pool
