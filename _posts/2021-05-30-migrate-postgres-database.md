@@ -4,7 +4,10 @@ author: Thinh Tran
 date: 2021-05-30 06:26:00 +0700
 categories: [Tutorials]
 tags: [postgres, nodejs]
+image: assets/img/postgresql-love-nodejs.png
 ---
+
+![Image](/assets/img/postgresql-love-nodejs.png)
 
 I've been working with SQL Server for years before moving to MongoDB. I loved Mongo for its simplicity but still wanted SQL so badly. People like SQL so much and even uses them in cloud services such as AWS Athena and Google Big Query. Then I decided to change to Postgres. I fell in love with it at first sight and want to work with it in the long term.
 

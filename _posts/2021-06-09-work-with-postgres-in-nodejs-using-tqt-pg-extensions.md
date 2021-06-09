@@ -4,7 +4,10 @@ author: Thinh Tran
 date: 2021-06-09 12:20:00 +0700
 categories: [Tutorials]
 tags: [postgres, nodejs, npm]
+image: assets/img/postgresql-love-nodejs.png
 ---
+
+![Image](/assets/img/postgresql-love-nodejs.png)
 
 To work with Postgres in Nodejs, we can use an ORM tool (like [sequelize](https://sequelize.org/)) or interact directly with databases using queries and [node-postgres](https://node-postgres.com/). I prefer the second way since it maximize the performance and I can optimize my query without doing any magic trick. However, for CRUD operations, writing repetitive queries is not a good choice. One more hassle is that the `pg` package doesn't support named parameters. So I write a new package which extends the original Pool from `pg` to solve my problems and may solve yours as well. Additional features in the extended pool:
 
