@@ -39,33 +39,33 @@ There are 3 types of trend:
 
 Markets are simply meeting places of buyers and sellers. Markets can be categorized in many ways. By dividing markets into categories based on how organized or integrated the market is, we have four different types of markets: direct search markets, brokered markets, dealer markets, and auction markets. We will only focus on the last one `auction markets`, where all participants converge at one place to buy or sell a good. The centralized facility can be a location, a clearinghouse, or even a computer. An important aspect of the auction market is that all information about offers and bids is centralized where it is readily accessible to all buyers and sellers. As all of the market participants converge, buyers and sellers need not search for each other, and a mutually agreeable price can be established, eliminating the bid-ask spread. The New York Stock Exchange is an example of a continuous auction market. Some auction markets can be studied using technical analysis, while others cannot.
 
-### Exchange-traded fund (ETF)
+- **Exchange-traded fund (ETF)**
 
-A security replicates an index fund or a basket of assets has become extremely popular as a trading and a hedging vehicle. ETFs hold assets, similar to a mutual fund. In most cases, ETFs distribute dividends (or reinvest them), thus eliminating the dividend spread seen in the index futures and options markets.
+  A security replicates an index fund or a basket of assets has become extremely popular as a trading and a hedging vehicle. ETFs hold assets, similar to a mutual fund. In most cases, ETFs distribute dividends (or reinvest them), thus eliminating the dividend spread seen in the index futures and options markets.
 
-### Derivative Markets
+- **Derivative Markets**
 
-The term derivative describes a financial contract that “derives” its value from some other investment vehicle, often called the underlying. The primary use for derivatives is to hedge against risk of loss in the underlying or to speculate with high leverage
+  The term derivative describes a financial contract that “derives” its value from some other investment vehicle, often called the underlying. The primary use for derivatives is to hedge against risk of loss in the underlying or to speculate with high leverage.
 
-### Futures Markets
+- **Futures Markets**
 
-Futures contracts that are traded in the futures markets are contracts in which the buyer and seller agree to trade at specific terms at a specific future date. Futures, unlike stocks, are contracts and represent an agreement to purchase or sell a very specific amount and quality of asset at the expiration date.
+  Futures contracts that are traded in the futures markets are contracts in which the buyer and seller agree to trade at specific terms at a specific future date. Futures, unlike stocks, are contracts and represent an agreement to purchase or sell a very specific amount and quality of asset at the expiration date.
 
-### Option Markets
+- **Option Markets**
 
-An option contract gives the holder the right, but not the obligation, to complete the transaction stated in the contract before the expiration date of the contract. There are two basic types of options—call options and put options. The call option gives the owner the option to buy an asset at a particular price, known as the strike price, before the option expiration date. The owner of a put option has the right to sell the stated asset at the strike price before the option expiration date.
+  An option contract gives the holder the right, but not the obligation, to complete the transaction stated in the contract before the expiration date of the contract. There are two basic types of options—call options and put options. The call option gives the owner the option to buy an asset at a particular price, known as the strike price, before the option expiration date. The owner of a put option has the right to sell the stated asset at the strike price before the option expiration date.
 
-### Market players
+- **Market players**
 
-There are 3 types of market players:
+  There are 3 types of market players:
 
-- `Informed players` (professional or smart money investors) are professional speculators, position traders, hedge fund managers, professional arbitrageurs, and insiders.
-- `Uninformed (noise) players` are the uninformed market participants are the noise players. A more widespread and older term is the public. Most mutual fund managers, pension fund managers, traders, and technical analysts are considered also to be in this category, even if they are professionals.
-- `Liquidity players` are market participants who affect prices in the markets for other reasons than investment or trading.
+  - `Informed players` (professional or smart money investors) are professional speculators, position traders, hedge fund managers, professional arbitrageurs, and insiders.
+  - `Uninformed (noise) players` are the uninformed market participants are the noise players. A more widespread and older term is the public. Most mutual fund managers, pension fund managers, traders, and technical analysts are considered also to be in this category, even if they are professionals.
+  - `Liquidity players` are market participants who affect prices in the markets for other reasons than investment or trading.
 
-### How is the market measured?
+- **How is the market measured?**
 
-As more of the market players want to buy stocks and fewer want to sell their stock holdings, stock prices will be driven up. Likewise, if many market players want to sell their stocks relative to the number of participants who want to buy stocks, stock prices will fall. Looking at the increase or decrease in the price of one stock will tell us how strong the market for that one particular stock is. If we want to measure the overall direction of the stock market, however, we need a way of measuring the movement of the broad market that is composed of the stocks of many companies: Price-Weighted Average, Market Capitalization Weighted Average, Equally Weighted (or Geometric) Average.
+  As more of the market players want to buy stocks and fewer want to sell their stock holdings, stock prices will be driven up. Likewise, if many market players want to sell their stocks relative to the number of participants who want to buy stocks, stock prices will fall. Looking at the increase or decrease in the price of one stock will tell us how strong the market for that one particular stock is. If we want to measure the overall direction of the stock market, however, we need a way of measuring the movement of the broad market that is composed of the stocks of many companies: Price-Weighted Average, Market Capitalization Weighted Average, Equally Weighted (or Geometric) Average.
 
 ## Dow theory
 
@@ -97,9 +97,7 @@ There are three basic trends in price motion, each defined by time:
 
 3. `The Minor Trend`: Daily fluctuations correspond to chaotic daily market movements which may last from a couple of hours to several days. These fluctuations are chaotic and thus they are unpredictable.
 
-### Confirmation
-
-The Dow Theory aims to signal changes in the primary market direction, and in order to achieve that mission, it uses two popular stock-market averages, DJIA (Dow Jones Industrial) and DJTA (Dow Jones Transportation).
+**Confirmation**: The Dow Theory aims to signal changes in the primary market direction, and in order to achieve that mission, it uses two popular stock-market averages, DJIA (Dow Jones Industrial) and DJTA (Dow Jones Transportation).
 
 - If one of these two indices changes its master trend, then this movement is evaluated as a secondary trend.
 
@@ -107,9 +105,7 @@ The Dow Theory aims to signal changes in the primary market direction, and in or
 
 Obviously, we need to use other averages. There are many methods that can be used in order to distinguish a Bull from a Bear market. For example, many analysts use the 200-day Moving Average. If the market is above its 200-day MA then it is considered bullish, and if it trades below its 200-day MA it is considered bearish. Numerous other methods can be applied.
 
-### Importance of Volume
-
-Although volume of transactions cannot signal a trend reversal, it is important as a secondary confirmation of trend. Excessively high market prices that are accompanied by less volume on rallies and more activity on declines usually suggest an overbought market. Conversely, extremely low prices with dull declines and increased volume on rallies suggest an oversold market. “Bull markets terminate in a period of excessive activity and begin with comparatively light transactions” (Rhea, 1932). The originators of Dow Theory were quick, however, not to overstate the importance of volume. Although volume was considered, it was not a primary consideration. Price trend and confirmation overrode any consideration of volume.
+**Importance of Volume**: Although volume of transactions cannot signal a trend reversal, it is important as a secondary confirmation of trend. Excessively high market prices that are accompanied by less volume on rallies and more activity on declines usually suggest an overbought market. Conversely, extremely low prices with dull declines and increased volume on rallies suggest an oversold market. “Bull markets terminate in a period of excessive activity and begin with comparatively light transactions” (Rhea, 1932). The originators of Dow Theory were quick, however, not to overstate the importance of volume. Although volume was considered, it was not a primary consideration. Price trend and confirmation overrode any consideration of volume.
 
 ## References
 
