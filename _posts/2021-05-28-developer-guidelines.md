@@ -75,6 +75,14 @@ Follow [this link](https://chirpy.cotes.info/posts/customize-the-favicon/).
 
 ## Mobile
 
+### 1. App Store Screenshot Requirements
+
+The required device screenshots for app submission are:
+
+- iPhone 12 Pro Max · 6.7-inch
+- iPhone 8 Plus · 5.5-inch
+- iPad Pro · 12.9-inch (only if the app runs on iPad)
+
 ## AWS
 
 ### 1. Make a dashboard to monitor apps
