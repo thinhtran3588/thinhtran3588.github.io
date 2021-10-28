@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    name: sample-api
+  name: sample-api-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      name: sample-api
+  template:
+    metadata:
+      labels:
+        name: sample-api
+    spec:
+      containers:
+        - image: rainbunny/auth-api:main
+          name: sample-api
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              memory: 1024Mi
+              cpu: "2"
+            requests:
+              memory: 256Mi
+              cpu: "1"
+          envFrom:
+            - configMapRef:
+                name: sample-api-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sample-api-service
+  labels:
+    name: sample-api
+spec:
+  ports:
+    - port: 3000
+      protocol: TCP
+      name: sample-api-port
+  selector:
+    name: sample-api
