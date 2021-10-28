@@ -1,5 +1,5 @@
 ---
-title: Developer guidelines (Last updated at 2021-05-28)
+title: Developer guidelines (Last updated at 2021-09-20)
 description: Guidelines for develop applications with Typescript, Nodejs, React, React Native & Postgres
 author: Thinh Tran
 date: 2021-05-28 08:14:00 +0700
@@ -69,9 +69,85 @@ Use [this deployment template](/assets/posts/2021-05-28-developer-guidelines/k8s
 
 ## Web
 
-### 1. Customize the favicon
+### 1. Set up a new app with Nextjs, Typescript, Tailwind CSS
 
-Follow [this link](https://chirpy.cotes.info/posts/customize-the-favicon/).
+- Set up a new project with Nextjs & Typescript (follow [this](https://nextjs.org/docs/getting-started))
+
+  ```bash
+  yarn create next-app --typescript
+  ```
+
+- Install Eslint parser/rules/plugins: [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb), [plugin:@next/next/recommended](https://nextjs.org/docs/basic-features/eslint#recommended-plugin-ruleset), [eslint-config-prettier](https://prettier.io/docs/en/integrating-with-linters.html), [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier), [eslint-plugin-no-null](https://www.npmjs.com/package/eslint-plugin-no-null). Check this sample: [.eslintrc.js](/assets/posts/2021-05-28-developer-guidelines/web/eslintrc.js)
+
+  ```bash
+  yarn add --dev @typescript-eslint/parser @typescript-eslint/eslint-plugin @next/eslint-plugin-next eslint-config-prettier eslint-plugin-prettier eslint-plugin-no-null eslint-plugin-no-inline-styles
+  ```
+
+  ```bash
+  npx install-peerdeps --dev eslint-config-airbnb
+  ```
+
+- Install Prettier (a fixed version)
+
+  ```bash
+  yarn add --dev prettier@2.4.1
+  ```
+
+- Install Jest & Cypress: Follow [this sample](https://github.com/vercel/next.js/blob/canary/examples/with-jest/package.json)
+
+- Install [TailwindCSS](https://tailwindcss.com/docs/guides/nextjs)
+
+  ```bash
+  yarn add --dev tailwindcss@latest postcss@latest autoprefixer@latest
+  ```
+
+  ```bash
+  npx tailwindcss init -p
+  ```
+
+- Add [bundle analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+
+  ```bash
+  yarn add @next/bundle-analyzer
+  ```
+
+  Then update next.config.js
+
+  ```typescript
+  const withBundleAnalyzer = require("@next/bundle-analyzer")({
+    enabled: process.env.ANALYZE === "true",
+  });
+  module.exports = withBundleAnalyzer({});
+  ```
+
+- Add [Rematch](https://rematchjs.org/docs/getting-started/installation/) - state management library with react-redux, immer, redux-persist
+
+  ```bash
+  yarn add @rematch/core @rematch/immer @rematch/persist immer react-redux redux-persist
+  ```
+
+  Then follow the tutorial
+
+### 2. [Internationalized Routing](https://nextjs.org/docs/advanced-features/i18n-routing) by updating next.config.js
+
+```javascript
+// next.config.js
+module.exports = {
+  i18n: {
+    locales: ["en", "vi"],
+    defaultLocale: "en",
+    domains: [],
+  },
+};
+```
+
+### 3. Make PWA with [next-pwa](https://github.com/shadowwalker/next-pwa)
+
+```bash
+yarn add next-pwa
+```
+
+### 4. Make icon with [this](https://chirpy.cotes.info/posts/customize-the-favicon/)
 
 ## Mobile
 
@@ -190,6 +266,10 @@ Use Eslint as the linter for Typescript. Use the below base files which have rul
   - [.eslintignore](/assets/posts/2021-05-28-developer-guidelines/backend/eslintignore.txt)
 
 - Web
+
+  - [.eslintrc.js](/assets/posts/2021-05-28-developer-guidelines/web/eslintrc.js)
+
+  - [.eslintignore](/assets/posts/2021-05-28-developer-guidelines/web/eslintignore.txt)
 
 - Mobile
 
